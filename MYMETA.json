@@ -1,0 +1,37 @@
+{
+   "abstract" : "My sample module",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4218",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MySample-Module",
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "Moo" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "MySample::Module" : {
+         "file" : "lib/MySample/Module.pm",
+         "version" : "v0.0.1"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.0.1",
+   "x_serialization_backend" : "JSON::PP version 2.27400"
+}
