@@ -1,5 +1,3 @@
-use Test::File::ShareDir -share => { -module => { 'MySample::Module' => 'share' }, };
-
 use strict;
 use warnings;
 use MySample::Module;
