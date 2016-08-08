@@ -78,7 +78,7 @@
 ^MANIFEST\.SKIP
 
 # Avoid archives of this distribution
-\bMySample-Module-[\d\.\_]+
+\bMySample-Module-v?[\d\.\_]+
 
 # Avoid including development files
 \B.proverc$
