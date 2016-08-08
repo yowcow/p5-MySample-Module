@@ -1,5 +1,9 @@
 Build.PL
 lib/MySample/Module.pm
+lib/MySample/Module/resources/hoge.dat
 MANIFEST			This list of files
-META.yml
 META.json
+META.yml
+MySample-Module-v0.0.1.tar.gz
+t/00-compile.t
+t/01-module.t
