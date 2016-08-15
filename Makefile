@@ -1,7 +1,7 @@
 .PHONY: orepan-master dist test clean
 
 DIST_NAME=MySample-Module
-OREPAN_PATH=my-orepan-dir
+OREPAN_DIR=my-orepan-dir
 
 all: Build
 	./Build
@@ -9,17 +9,9 @@ all: Build
 Build: Build.PL
 	perl Build.PL
 
-dist: $(OREPAN_PATH) orepan-latest-master
+dist:
 	./Build dist
-	./release-to-orepan.sh $(DIST_NAME) $(OREPAN_PATH)
-
-orepan-latest-master:
-	cd $(OREPAN_PATH) && \
-		git checkout master && \
-		git pull origin master
-
-$(OREPAN_PATH):
-	git submodule update --init $@
+	./release-to-orepan.sh $(DIST_NAME) $(OREPAN_DIR)
 
 test: Build
 	./Build test
