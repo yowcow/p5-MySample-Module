@@ -37,7 +37,7 @@
    "provides" : {
       "MySample::Module" : {
          "file" : "lib/MySample/Module.pm",
-         "version" : "v0.0.6"
+         "version" : "v0.1.0"
       }
    },
    "release_status" : "stable",
@@ -46,6 +46,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.0.6",
+   "version" : "v0.1.0",
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }
