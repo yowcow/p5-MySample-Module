@@ -11,3 +11,10 @@ perl:
   - "5.20"
   - "5.22"
   - "5.24"
+
+git:
+  submodules: false
+
+#before_install:
+#  - sed -i 's/git@github.com:/http:\/\/github.com\//' .gitmodules
+#  - git submodule update --init --recursive
