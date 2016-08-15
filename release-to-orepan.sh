@@ -18,7 +18,7 @@ cd $OREPAN_DIR \
 cd $CWD
 
 FILE=$(find . -maxdepth 1 -name "$DIST_NAME-*.tar.gz" | sed -e 's/^\.\///' | sort -r | head -n1)
-VERSION=$(echo "$FILE" | perl -ne "m/([v0-9_\.]+)\./; print $1")
+VERSION=$(echo "$FILE" | perl -ne 'm/([v0-9_\.]+)\./; print $1')
 
 echo "--> Dist file: $FILE"
 echo "--> Dist version: $VERSION"

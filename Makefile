@@ -11,7 +11,7 @@ Build: Build.PL
 
 dist:
 	./Build dist
-	./release-to-orepan.sh $(DIST_NAME) $(OREPAN_DIR)
+	bash release-to-orepan.sh $(DIST_NAME) $(OREPAN_DIR)
 
 test: Build
 	./Build test
