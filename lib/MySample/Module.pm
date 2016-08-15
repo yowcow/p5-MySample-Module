@@ -2,7 +2,7 @@ package MySample::Module;
 use strict;
 use warnings;
 
-our $VERSION = 'v0.0.6';
+our $VERSION = 'v0.1.0';
 
 use File::Basename qw(dirname);
 use File::Spec;

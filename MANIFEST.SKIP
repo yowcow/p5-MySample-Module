@@ -85,3 +85,5 @@
 \B.perltidyrc$
 
 ^my-orepan-dir
+^\.gitmodules
+^release-to-orepan.sh
