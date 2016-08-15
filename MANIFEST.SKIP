@@ -83,3 +83,5 @@
 # Avoid including development files
 \B.proverc$
 \B.perltidyrc$
+
+^my-orepan-dir
